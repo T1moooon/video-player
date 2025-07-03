@@ -17,7 +17,7 @@
 }
 .vp-btn {
     width: 25px;
-    height: 43px;
+    height: 45px;
     border-style: none;
     background-color: transparent;
     cursor: pointer;
@@ -29,5 +29,5 @@
     flex-grow: 1;
 }
 .js-fullscreen-button {
-  margin-right: 5px;
+  margin-right: 8px;
 }
