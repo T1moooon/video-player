@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: white;
+  font-family: 'Roboto';
+  color: white;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+[hidden] {
+  display: none !important;
+}
