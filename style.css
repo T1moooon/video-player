@@ -1,3 +1,11 @@
+.roboto-text {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
 .vp-player {
     width: 800px;
     height: 600px;
@@ -25,8 +33,20 @@
     font-size: 15pt;
     margin: 0 5px;
 }
-.vp-spacer {
+.vp-progress {
     flex-grow: 1;
+    height: 4px;
+    background: transparent;
+    margin: 0 10px;
+}
+.vp-current-time {
+    color: white;
+    font-size: 12pt;
+    margin-left: 1px;
+}
+.vp-duration-time {
+    color: white;
+    font-size: 12pt;
 }
 .js-fullscreen-button {
   margin-right: 8px;
