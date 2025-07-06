@@ -31,7 +31,12 @@
     cursor: pointer;
     color: white;
     font-size: 15pt;
-    margin: 0 5px;
+}
+.vp-play-btn {
+    margin-left: 3px;
+}
+.vp-volume-btn {
+    margin-left: 11px;
 }
 .vp-progress {
     flex-grow: 1;
@@ -42,12 +47,15 @@
 .vp-current-time {
     color: white;
     font-size: 12pt;
-    margin-left: 1px;
+    margin-left: 10px;
+    margin-top: 2px;
 }
 .vp-duration-time {
     color: white;
     font-size: 12pt;
+    margin-right: 5px;
+    margin-top: 2px;
 }
 .js-fullscreen-button {
-  margin-right: 8px;
+  margin-right: 9px;
 }
